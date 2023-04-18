@@ -1,0 +1,258 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.portada{
+    background-image: url("./IMAGENES/Central/imagenCentral.png");
+    object-fit: cover;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: 50px 0;
+}
+
+.texto-portada{
+    width: 50%;
+    max-width: 50%;
+    margin-left: 50%;
+}
+
+.texto-portada h1{
+    color: white;
+    margin: 1rem 0;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.texto-portada p{
+    font-size: 2rem;
+    color: white;
+    line-height: 3rem;
+}
+
+.texto-portada button{
+    display: block;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1.8rem auto;
+    background-color: rgb(27, 25, 25);
+  }
+
+  .texto-portada button:hover{
+    background-color: rgba(107, 99, 99, 0.363);
+}
+
+.calidad{
+    background-color: rgb(61, 50, 50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calidad-img{
+  height: 30%;
+  width: 20%;
+  object-fit: cover;
+}
+
+.cards{
+  display:flex;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  background-color: rgb(61, 50, 50);
+  border: none;
+  color: rgb(184, 167, 136);
+  width: fit-content;
+}
+
+.productos{
+  display: flex;
+  align-items: center;
+  background-color: rgb(184, 167, 136);
+}
+
+.carrusel{
+  color: rgb(63, 62, 60);
+  display: flex;
+  align-items: center;
+  flex: 50%;
+  flex-direction: column;
+}
+
+.borde{
+  width: 33%;
+}
+
+.carrusel-titulo{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.carrusel-descripcion{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn-buy{
+  display: block;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 2.5rem;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1.8rem auto;
+  background-color: rgb(59, 49, 49);
+}
+
+.btn-buy:hover{
+  background-color: rgb(34, 29, 29);
+}
+
+.bg-opaco{
+  background-color: rgba(75, 67, 67, 0.6);
+}
+
+.quienesSomos{
+  background-color: rgb(61, 50, 50);
+  padding: 2rem 2rem;
+  display: flex;
+}
+
+.qs-texto{
+  color: white;
+  text-align: center;
+  width: 50%;
+  padding: 1rem 2rem;
+}
+
+.qs-texto p{
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.qs-texto h2{
+  font-size: 2.2rem;
+}
+
+.clientes{
+  text-align: center;
+  width: 50%;
+  color: white;
+  padding: 2rem, 2rem;
+  margin-left: 5rem;
+}
+
+.clientes h2{
+  font-size: 2.2rem;
+}
+
+.clientes-img{
+  border-radius: 55%;
+  height: 15rem;
+  width: 18rem;
+  box-shadow: 0 3px 3px rgb(0,0,0,0.5);
+  object-fit: cover;
+}
+
+.card-title{
+font-size: 1.5rem;
+color: white;
+font-weight: bold;
+}
+
+.card-text{
+  font-size: 1.5rem;
+  color: white;
+  font-style: italic;
+}
+
+.container-contacto{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contacto{
+  background-color: rgb(184, 167, 136);
+  padding-bottom: 2rem;
+}
+
+.borde-contacto{
+  width: 20%;
+}
+
+.contacto form{
+width: 60%;
+font-size: 150%;
+margin-left: 0;
+text-decoration: none;
+}
+
+.contacto label{
+  text-decoration: none;
+  font-weight:600;
+}
+
+.contacto textarea{
+  width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+  padding: 1rem 1rem;
+}
+
+.inputs{
+  height: 4rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  border:1px solid #f6f6f6;
+	border-radius:3px;
+  width: 100%;
+}
+
+.contacto ul{
+  list-style: none;
+  width: 100%;
+}
+
+.contacto li{
+  margin-bottom: 1rem;
+  width:100%;
+}
+
+footer{
+    background-color: rgb(61, 50, 50);
+}
